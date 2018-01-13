@@ -1,4 +1,7 @@
-﻿.ax_default {
+﻿html, body{
+  overflow-x: hidden;;
+}
+.ax_default {
   font-family:'Arial Regular', 'Arial';
   font-weight:400;
   font-style:normal;
