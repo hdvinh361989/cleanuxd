@@ -1,7 +1,6 @@
-﻿body, html{
-  overflow-x:hidden;
+﻿body{
+  overflow-x: hidden;
 }
-
 .ax_default {
   font-family:'Arial Regular', 'Arial';
   font-weight:400;
