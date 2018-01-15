@@ -1,4 +1,10 @@
 ﻿(function () {
+    if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+        location.replace("http://cleanuxd/cleanuxd_-__mobile_site.html");
+    }else if (screen.width <= 768) {
+        document.location = "cleanuxd_-__mobile_site.html";
+    }
+
    jQuery(document).ready(function () {
        var script = document.createElement('script');
        script.src = '/resources/scripts/hotjar/hotjar.js';
