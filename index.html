@@ -67,6 +67,13 @@
         $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
         $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
     </script>
+    <script>
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+            location.replace("http://cleanuxd/cleanuxd_-__mobile_site.html");
+        }else if (screen.width <= 768) {
+            document.location = "cleanuxd_-__mobile_site.html";
+        }
+    </script>
 </head>
 <body>
 <div id="base" class="">
