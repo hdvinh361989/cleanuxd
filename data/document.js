@@ -1,8 +1,7 @@
 ﻿(function () {
    jQuery(document).ready(function () {
        var js = [
-           '/resources/scripts/hotjar/hotjar.js',
-           "https://platform.linkedin.com/badges/js/profile.js"
+           '/resources/scripts/hotjar/hotjar.js'
        ];
 
        var script;
