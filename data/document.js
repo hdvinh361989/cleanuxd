@@ -1,9 +1,18 @@
 ﻿(function () {
    jQuery(document).ready(function () {
-       var script = document.createElement('script');
-       script.src = '/resources/scripts/hotjar/hotjar.js';
-       script.async = true;
-       jQuery(document.body).append(script);
+       var js = [
+           '/resources/scripts/hotjar/hotjar.js',
+           "https://platform.linkedin.com/badges/js/profile.js"
+       ];
+
+       var script;
+       js.forEach(function (path) {
+           script = document.createElement('script');
+           script.src = path;
+           script.async = true;
+           script.defer = true;
+           jQuery(document.body).append(script);
+       });
    })
 })();
 
