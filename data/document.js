@@ -8,10 +8,11 @@
        var script;
        js.forEach(function (path) {
            script = document.createElement('script');
+           script.type = "text/javascript";
            script.src = path;
            script.async = true;
            script.defer = true;
-           jQuery(document.body).append(script);
+           document.body.appendChild(script);
        });
    })
 })();
