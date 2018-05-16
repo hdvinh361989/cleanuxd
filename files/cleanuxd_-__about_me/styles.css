@@ -1275,35 +1275,21 @@
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
+#u575_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:275px;
+  height:398px;
+}
 #u575 {
   position:absolute;
   left:120px;
   top:2445px;
-  width:271px;
-  height:394px;
-}
-#u575_input {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:271px;
-  height:394px;
-}
-#u576_img {
-  position:absolute;
-  left:0px;
-  top:0px;
   width:275px;
   height:398px;
 }
 #u576 {
-  position:absolute;
-  left:120px;
-  top:2445px;
-  width:275px;
-  height:398px;
-}
-#u577 {
   position:absolute;
   left:2px;
   top:191px;
