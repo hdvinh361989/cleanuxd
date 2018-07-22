@@ -2,7 +2,7 @@
   overflow-x: hidden;
 }
 .ax_default {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -12,48 +12,59 @@
 }
 .box_1 {
 }
+.image {
+  color:#000000;
+}
 .box_2 {
 }
 .box_3 {
 }
 .ellipse {
 }
-.image {
+.shape {
+}
+.image1 {
 }
 .placeholder {
 }
 .heading_1 {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:32px;
   text-align:left;
 }
 .heading_2 {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:24px;
   text-align:left;
 }
 .heading_3 {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:18px;
   text-align:left;
 }
 .heading_4 {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:14px;
   text-align:left;
 }
 .heading_5 {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:bold;
+  font-style:normal;
   text-align:left;
 }
 .heading_6 {
-  font-family:'Arial Regular', 'Arial';
+  font-family:'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:10px;
   text-align:left;
 }
@@ -62,6 +73,11 @@
   text-align:left;
 }
 .paragraph {
+  font-size:14px;
+  text-align:left;
+  line-height:20px;
+}
+.paragraph1 {
   text-align:left;
 }
 .text_link {
@@ -90,7 +106,7 @@
 }
 .icon {
 }
-.shape {
+.shape1 {
   font-size:13px;
   color:#000000;
 }
@@ -99,7 +115,7 @@
   color:#000000;
   text-align:left;
 }
-.image1 {
+.image2 {
   font-size:13px;
   color:#000000;
 }
@@ -114,5 +130,37 @@
 }
 .table_cell {
 }
+.horizontal_line {
+}
 .button {
+}
+.background-5 {
+}
+.android_flat_button {
+  font-size:14px;
+  color:#169BD5;
+}
+.menu_background {
+}
+.menu_items {
+  text-align:left;
+}
+.android_title_text_light {
+  font-size:20px;
+  color:#FFFFFF;
+}
+.text_area {
+  font-size:14px;
+  color:#000000;
+  text-align:left;
+}
+.list_box1 {
+  font-size:14px;
+  color:#000000;
+  text-align:left;
+}
+.line1 {
+}
+.table {
+  font-size:14px;
 }
