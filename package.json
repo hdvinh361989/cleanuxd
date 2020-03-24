@@ -10,7 +10,7 @@
     "shelljs": "^0.2.6"
   },
   "scripts": {
-    "prestart": "concurrently \"npm install\"",
+    "prestart": "npm install",
     "start": "concurrently \"http-server ./ -c-1 --cors\""
   },
   "dependencies": {
